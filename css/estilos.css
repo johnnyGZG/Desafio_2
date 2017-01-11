@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body, html{
+	height: 90%;
+}
+body{
+	position: relative;
+}
+body > *{
+
+	width: 90%;
+	border: 2px solid red;
+	margin: 10px auto;
+}
+#contenido{
+	height: 100%;
+}
+#footer{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+    left: 0px;
+    z-index: 15;
+    background: #FFEB3B;
+}
